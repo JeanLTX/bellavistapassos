@@ -10,9 +10,9 @@
     --color-gray-900: #331B0B;
     --color-gray-800: #4a2711;
     
-    --color-white: #f0dfc1;
-    --color-gray-50: #e3d2b3;
-    --color-gray-100: #d6c4a5;
+    --color-white: #ffffff;
+    --color-gray-50: #f9fafb;
+    --color-gray-100: #f3f4f6;
 }
 
 /* Custom Styles - Bella Vista Pizzaria */
@@ -20,7 +20,7 @@
 :root {
     --brand-red: #c83930;
     --brand-dark: #331B0B;
-    --bg-cream: #f0dfc1;
+    --bg-cream: #ffffff;
 }
 
 body {
@@ -252,7 +252,8 @@ h1, h2, h3, .serif-font {
 .cart-drawer-footer {
     border-top: 1px solid #e5e7eb;
     padding: 16px;
-    background: #f9fafb;
+    padding-bottom: calc(16px + env(safe-area-inset-bottom, 20px));
+    background: #ffffff;
 }
 
 /* FAB */
